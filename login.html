@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <title>BROGIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <form name="login" onsubmit="return validateForm() ;" method="post">
+        <h1>BROGIN</h1>
+        <p>Users who are not hardcoded into the site will be unable to make an account</p>
+        <input type="text" class="username" name="username" placeholder="username">
+        <input type="password" class="password" name="password" placeholder="password">
+        <input type="button" class="submit" value="submit" name="submit" onclick="validate()">
+    </form>
+    <p id="incorrect"></p>
+    <script src="login.js"></script>
+</body>
